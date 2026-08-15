@@ -1,0 +1,152 @@
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  justify-content: space-between;
+}
+
+.header {
+  display: flex;
+  padding: 10px;
+  background-color: #00008B;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  gap: 1rem;
+  margin: 10px;
+  padding: 0;
+  /* this removes the dots on the list items*/
+  list-style-type: none;
+}
+
+.header a {
+  text-decoration: none;
+  color: white;
+}
+
+.midup1 {
+  display: flex;
+  background-color: #00008B;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  gap: 4rem;
+}
+
+.uppersignup {
+  max-width: 400px;
+  max-height: 400px;
+}
+
+.uppersignup button {
+  background-color: #7FFF00;
+  border-radius: 6px;
+  border-style: solid;
+  padding: 5px;
+}
+
+.uppersignup a {
+  text-decoration: none;
+  color: black;
+}
+
+.midup2 {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.artpanel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+
+.artcard {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.midmid {
+  display: flex;
+  background-color: #D3D3D3;
+  padding: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.quoteandauthor {
+  max-width: 400px;
+  max-height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.actualquote {
+  font-family: "Brush Script MT";
+  font-size: 24px;
+  font-style: italic;
+}
+
+.saidby {
+  align-self: flex-end;
+  font-weight: 700;
+}
+
+.midlow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.callblock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #5FB2CE;
+  color: white;
+  border-radius: 10px;
+  padding: 40px;
+  gap: 1rem;
+}
+
+.wordsforaction {
+  display: flex;
+  flex-direction: column;
+}
+
+.actionheading {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.callblock button {
+  background-color: #5FB2CE;
+  color: white;
+  border-color: white;
+  border-style: solid;
+  border-radius: 6px;
+  padding: 5px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  color: white;
+  background-color: #00008B;
+}
